@@ -56,7 +56,7 @@ fibonacci.reverse   #=> [13, 8, 5, 3, 2, 1, 1, 0]
 
 Rather than using loops to iterate through collections, in Ruby we use enumeration.
 
-Enumeration is the act of stepping through a collection (in this case an array) and performing some action on each object.  Enumeration is a key concept in Ruby and is used for things like sorting, grouping, mapping, reducing, and much more.
+Enumeration is the act of stepping through a collection (in this case an array) and performing some action on each object. Enumeration is a key concept in Ruby and is used for things like sorting, grouping, mapping, reducing, and much more.
 
 An enumeration to print each word in an array would look like this:
 

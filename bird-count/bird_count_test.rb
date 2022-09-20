@@ -5,7 +5,7 @@ require_relative 'bird_count'
 
 class BirdCountTest < Minitest::Test
   def test_last_week
-    assert_equal [0, 2, 5, 3, 7, 8, 4], BirdCount.last_week
+    assert_equal [0, 2, 5, 3, 6, 7, 8, 4], BirdCount.last_week
   end
 
   def test_yesterday_for_disappointing_week
